@@ -1,0 +1,19 @@
+name: Deploy MAGNET Heat Pipe Data Main
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+  
+jobs:    
+  mirror-repository:
+    runs-on: [ self-hosted ]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+      - shell: bash
+        name: mirror-magnet-heat-pipe-data-repo
+        run: |
+          git fetch --unshallow origin
+          git remote add github-pub ${{ secrets.PUBLIC_GITHUB_URL }} || git remote set-url github-pub ${{ secrets.PUBLIC_GITHUB_URL }}
+          git push github-pub main --force
