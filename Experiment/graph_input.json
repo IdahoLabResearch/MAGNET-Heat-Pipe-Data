@@ -1,0 +1,175 @@
+[
+    {
+        "metatypes": {
+            "HeatPipe": [
+                {
+                    "id": "MAGNET",
+                    "name": "MAGNET",
+                    "acronym": "Microreactor Agile Non-Nuclear Experimental Test Bed",
+                    "manufacturer name": "Advanced Cooling Technologies"
+                }
+            ],
+            "Structure": [
+                {
+                    "id": "INL",
+                    "name": "Idaho National Laboratory",
+                    "description": "Energy Systems Laboratory"
+                }
+            ],
+            "Thermocouple": [
+                {
+                    "id": "MAGNET.Thermocouple_1",
+                    "name": "Thermocouple 1",
+                    "equipment type": "Temperature",
+                    "section": "Thermowell",
+                    "position": "40.64 cm",
+                    "manufacturer name": "Idaho Labs",
+                    "manufacturer model designation": "Custom"
+                },
+                {
+                    "id": "MAGNET.Thermocouple_2",
+                    "name": "Thermocouple 2",
+                    "equipment type": "Temperature",
+                    "section": "Thermowell",
+                    "position": "58.42 cm",
+                    "manufacturer name": "Idaho Labs",
+                    "manufacturer model designation": "Custom"
+                },
+                {
+                    "id": "MAGNET.Thermocouple_3",
+                    "name": "Thermocouple 3",
+                    "equipment type": "Temperature",
+                    "section": "Thermowell",
+                    "position": "76.20 cm",
+                    "manufacturer name": "Idaho Labs",
+                    "manufacturer model designation": "Custom"
+                },
+                {
+                    "id": "MAGNET.Thermocouple_4",
+                    "name": "Thermocouple 4",
+                    "equipment type": "Temperature",
+                    "section": "Thermowell",
+                    "position": "93.98 cm",
+                    "manufacturer name": "Idaho Labs",
+                    "manufacturer model designation": "Custom"
+                },
+                {
+                    "id": "MAGNET.Thermocouple_5",
+                    "name": "Thermocouple 5",
+                    "equipment type": "Temperature",
+                    "section": "Thermowell",
+                    "position": "111.76 cm",
+                    "manufacturer name": "Idaho Labs",
+                    "manufacturer model designation": "Custom"
+                },
+                {
+                    "id": "MAGNET.Thermocouple_6",
+                    "name": "Thermocouple 6",
+                    "equipment type": "Temperature",
+                    "section": "Thermowell",
+                    "position": "129.54 cm",
+                    "manufacturer name": "Idaho Labs",
+                    "manufacturer model designation": "Custom"
+                },
+                {
+                    "id": "MAGNET.Thermocouple_7",
+                    "name": "Thermocouple 7",
+                    "equipment type": "Temperature",
+                    "section": "Thermowell",
+                    "position": "147.32 cm",
+                    "manufacturer name": "Idaho Labs",
+                    "manufacturer model designation": "Custom"
+                },
+                {
+                    "id": "MAGNET.Thermocouple_8",
+                    "name": "Thermocouple 8",
+                    "equipment type": "Temperature",
+                    "section": "Thermowell",
+                    "position": "165.10 cm",
+                    "manufacturer name": "Idaho Labs",
+                    "manufacturer model designation": "Custom"
+                },
+                {
+                    "id": "MAGNET.Thermocouple_9",
+                    "name": "Thermocouple 9",
+                    "equipment type": "Temperature",
+                    "section": "Thermowell",
+                    "position": "182.88 cm",
+                    "manufacturer name": "Idaho Labs",
+                    "manufacturer model designation": "Custom"
+                },
+                {
+                    "id": "MAGNET.Thermocouple_10",
+                    "name": "Thermocouple 10",
+                    "equipment type": "Temperature",
+                    "section": "Thermowell",
+                    "position": "200.00 cm",
+                    "manufacturer name": "Idaho Labs",
+                    "manufacturer model designation": "Custom"
+                }
+            ],
+            "CartridgeHeater": [
+                {
+                    "id": "MAGNET.CartridgeHeater.Heater Power 1",
+                    "name": "Heater Power 1",
+                    "equipment type": "Power",
+                    "section": "",
+                    "position": "",
+                    "description": "",
+                    "manufacturer name": "Watlow Firerod",
+                    "manufacturer model designation": ""
+                },
+                {
+                    "id": "MAGNET.CartridgeHeater.Heater Power 2",
+                    "name": "Heater Power 2",
+                    "equipment type": "Power",
+                    "section": "",
+                    "position": "",
+                    "description": "",
+                    "manufacturer name": "Watlow Firerod",
+                    "manufacturer model designation": ""
+                },
+                {
+                    "id": "MAGNET.CartridgeHeater.Heater Power 3",
+                    "name": "Heater Power 3",
+                    "equipment type": "Power",
+                    "section": "",
+                    "position": "",
+                    "description": "",
+                    "manufacturer name": "Watlow Firerod",
+                    "manufacturer model designation": ""
+                },
+                {
+                    "id": "MAGNET.CartridgeHeater.Heater Power 4",
+                    "name": "Heater Power 4",
+                    "equipment type": "Power",
+                    "section": "",
+                    "position": "",
+                    "description": "",
+                    "manufacturer name": "Watlow Firerod",
+                    "manufacturer model designation": ""
+                },
+                {
+                    "id": "MAGNET.CartridgeHeater.Heater Power 5",
+                    "name": "Heater Power 5",
+                    "equipment type": "Power",
+                    "section": "",
+                    "position": "",
+                    "description": "",
+                    "manufacturer name": "Watlow Firerod",
+                    "manufacturer model designation": ""
+                },
+                {
+                    "id": "MAGNET.CartridgeHeater.Heater Power 6",
+                    "name": "Heater Power 6",
+                    "equipment type": "Power",
+                    "section": "",
+                    "position": "",
+                    "description": "",
+                    "manufacturer name": "Watlow Firerod",
+                    "manufacturer model designation": ""
+                }
+            ]
+        }
+    }
+]
