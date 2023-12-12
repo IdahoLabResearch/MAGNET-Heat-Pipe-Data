@@ -8,15 +8,20 @@ Wilsdon, K., Hansel, J., Kunz, M. R., & Browning, J. (2023). Autonomous control 
 
 ## Getting Started
 
+See `Demo_Container.md` for instructions on setting up a DeepLynx container complete with ontology, data sources, type mapping, and graph and timeseries data for the MAGNET digital twin experiment.
+
 ### Experiment
 
 * `Multiple_Files` directory - a list of one-minute interval files containing the experimental data.
     * Note: There are time intervals missing because files were only created during the operation of the digital twin instead of the entire experiment.
 * `Single_File` directory - full experimental data file.
+* `Demo_Container_Export.json` - contains ontology, data source, and type mapping information for the creation of a demo container with data from this respository.  
+* `graph_input.json` - data that will be used for the demo container to populate a sample graph.  
 
 ### Machine_Learning
 
-* A list of files that forecasted the next 10 minutes of operation of the heat pipe. 
+* `Multiple_Files` directory - A list of files that forecasted the next 10 minutes of operation of the heat pipe. 
+* `Single_File` directory - full forecast data file.  
 
 See Section `3.2. Machine-learning and artificial intelligence` and `4.2. Machine learning and artificial intelligence` in the journal paper for more information.
 
