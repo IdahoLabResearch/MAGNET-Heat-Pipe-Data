@@ -1,0 +1,1318 @@
+{
+  "data_sources": [
+    {
+      "DataSourceRecord": {
+        "adapter_type": "standard",
+        "status": "ready",
+        "active": true,
+        "archived": false,
+        "config": {
+          "kind": "standard",
+          "data_retention_days": 30,
+          "raw_retention_enabled": false,
+          "data_type": "json"
+        },
+        "id": "42",
+        "container_id": "13",
+        "name": "Graph Source",
+        "data_format": null,
+        "created_at": "2023-11-30T15:19:12.087Z",
+        "modified_at": "2023-11-30T15:19:36.673Z",
+        "created_by": "1",
+        "modified_by": "1",
+        "status_message": null
+      }
+    },
+    {
+      "DataSourceRecord": {
+        "adapter_type": "timeseries",
+        "status": "ready",
+        "active": true,
+        "archived": false,
+        "config": {
+          "kind": "timeseries",
+          "data_retention_days": 30,
+          "raw_retention_enabled": false,
+          "fast_load_enabled": true,
+          "columns": [
+            {
+              "is_primary_timestamp": true,
+              "unique": false,
+              "id": "dcbf26b3-44c5-484e-8b22-8db4d1e30385",
+              "type": "number64",
+              "column_name": "time",
+              "property_name": "Time (s)",
+              "date_conversion_format_string": "%Y-%m-%d %H:%M:%S.%f"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "1feca49b-36d6-406d-927c-075cba6dade0",
+              "type": "float64",
+              "column_name": "ml_tc_01",
+              "property_name": "Heat Pipe TC-01"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "bce92c48-2254-4955-bded-7bfe7607c13d",
+              "type": "float64",
+              "column_name": "ml_tc_02",
+              "property_name": "Heat Pipe TC-02"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "91c0f015-d84d-4425-b711-94bbd5dfefd8",
+              "type": "float64",
+              "column_name": "ml_tc_03",
+              "property_name": "Heat Pipe TC-03"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "eaa44a36-40f9-4b93-9c24-fc5ef48cf5c0",
+              "type": "float64",
+              "column_name": "ml_tc_04",
+              "property_name": "Heat Pipe TC-04"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "6c1811d6-367e-4218-b044-9033f8782ea9",
+              "type": "float64",
+              "column_name": "ml_tc_05",
+              "property_name": "Heat Pipe TC-05"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "86ed8dae-b246-409f-854f-53506a425a2a",
+              "type": "float64",
+              "column_name": "ml_tc_06",
+              "property_name": "Heat Pipe TC-06"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "38e2f85f-0c16-41c4-bfe4-a310d3306345",
+              "type": "float64",
+              "column_name": "ml_tc_07",
+              "property_name": "Heat Pipe TC-07"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "56b18e40-79f6-4021-a1cb-379aa0094b3d",
+              "type": "float64",
+              "column_name": "ml_tc_08",
+              "property_name": "Heat Pipe TC-08"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "be8302d0-73f2-44ff-ab9b-ef51abfccb12",
+              "type": "float64",
+              "column_name": "ml_tc_09",
+              "property_name": "Heat Pipe TC-09"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "9fc1697f-70f8-43fa-a7a3-b21552ad32aa",
+              "type": "float64",
+              "column_name": "ml_tc_10",
+              "property_name": "Heat Pipe TC-10"
+            }
+          ],
+          "attachment_parameters": [
+            {
+              "key": "",
+              "type": "metatype_name",
+              "value": "HeatPipe",
+              "operator": "=="
+            }
+          ],
+          "chunk_interval": "5000"
+        },
+        "id": "41",
+        "container_id": "13",
+        "name": "Machine Learning Data",
+        "data_format": null,
+        "created_at": "2023-11-30T15:19:11.989Z",
+        "modified_at": "2023-11-30T15:20:11.329Z",
+        "created_by": "1",
+        "modified_by": "1",
+        "status_message": null
+      }
+    },
+    {
+      "DataSourceRecord": {
+        "adapter_type": "timeseries",
+        "status": "ready",
+        "active": true,
+        "archived": false,
+        "config": {
+          "kind": "timeseries",
+          "data_retention_days": 30,
+          "raw_retention_enabled": false,
+          "fast_load_enabled": true,
+          "columns": [
+            {
+              "is_primary_timestamp": true,
+              "unique": false,
+              "id": "b3fb725a-b15b-47cb-8187-1e7f2915a10c",
+              "type": "number64",
+              "column_name": "time",
+              "property_name": "Time (s)",
+              "date_conversion_format_string": "%Y-%m-%d %H:%M:%S.%f"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "1260f81f-5917-44cb-aba1-1575dcd765d3",
+              "type": "float64",
+              "column_name": "date_time",
+              "property_name": "Date/Time"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "460eef92-b363-48db-b04c-16e40950bac3",
+              "type": "float64",
+              "column_name": "tc_01",
+              "property_name": "Heat Pipe TC-01"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "02b01b9f-2b16-4e35-9041-07ad2ce2ff70",
+              "type": "float64",
+              "column_name": "tc_02",
+              "property_name": "Heat Pipe TC-02"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "324026f4-0449-438f-9ff9-f3de1fd2c377",
+              "type": "float64",
+              "column_name": "tc_03",
+              "property_name": "Heat Pipe TC-03"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "a1d0b46d-f288-4976-848d-6abb1446e8f3",
+              "type": "float64",
+              "column_name": "tc_04",
+              "property_name": "Heat Pipe TC-04"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "70d361b7-86f8-490b-b203-daa18f880387",
+              "type": "float64",
+              "column_name": "tc_05",
+              "property_name": "Heat Pipe TC-05"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "a376d75c-4c9e-47ec-89e4-192cb60ae289",
+              "type": "float64",
+              "column_name": "tc_06",
+              "property_name": "Heat Pipe TC-06"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "00bbe7ef-0458-47f9-a7ed-a9077f83c376",
+              "type": "float64",
+              "column_name": "tc_07",
+              "property_name": "Heat Pipe TC-07"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "d02fe153-3ab8-4b4f-9e10-a25d1973b430",
+              "type": "float64",
+              "column_name": "tc_08",
+              "property_name": "Heat Pipe TC-08"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "21b093e7-3c38-40bb-ad66-d99b3be675c6",
+              "type": "float64",
+              "column_name": "tc_09",
+              "property_name": "Heat Pipe TC-09"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "2ff02963-c50a-4a05-8487-c84f3a944910",
+              "type": "float64",
+              "column_name": "tc_10",
+              "property_name": "Heat Pipe TC-10"
+            },
+            {
+              "is_primary_timestamp": false,
+              "unique": false,
+              "id": "5fa0eb9d-e1b4-46ad-be68-c64b28ecf54e",
+              "type": "float",
+              "column_name": "heater_temp",
+              "property_name": "Heater Temp"
+            }
+          ],
+          "attachment_parameters": [
+            {
+              "key": "",
+              "type": "metatype_name",
+              "value": "HeatPipe",
+              "operator": "=="
+            }
+          ],
+          "chunk_interval": "20000"
+        },
+        "id": "43",
+        "container_id": "13",
+        "name": "Heat Pipe Data",
+        "data_format": null,
+        "created_at": "2023-11-30T15:19:12.101Z",
+        "modified_at": "2023-11-30T15:20:11.843Z",
+        "created_by": "1",
+        "modified_by": "1",
+        "status_message": null
+      }
+    }
+  ],
+  "type_mappings": [
+    {
+      "active": true,
+      "data_source_id": "42",
+      "shape_hash": "2cxFXJbg2Vr/jzlrFZ3EexVBFKpF7rV3BkvyjmUXmh4=",
+      "sample_payload": {
+        "metatypes": {
+          "HeatPipe": [
+            {
+              "id": "MAGNET",
+              "name": "Microreactor Agile Non-Nuclear Experimental Test Bed",
+              "acronym": "MAGNET",
+              "manufacturer name": "Advanced Cooling Technologies"
+            }
+          ],
+          "Structure": [
+            {
+              "id": "INL",
+              "name": "Idaho National Laboratory",
+              "description": "Energy Systems Laboratory"
+            }
+          ],
+          "Thermocouple": [
+            {
+              "id": "MAGNET.Thermocouple_1",
+              "name": "Thermocouple 1",
+              "section": "Thermowell",
+              "position": "40.64 cm",
+              "equipment type": "Temperature",
+              "manufacturer name": "Idaho Labs",
+              "manufacturer model designation": "Custom"
+            },
+            {
+              "id": "MAGNET.Thermocouple_2",
+              "name": "Thermocouple 2",
+              "section": "Thermowell",
+              "position": "58.42 cm",
+              "equipment type": "Temperature",
+              "manufacturer name": "Idaho Labs",
+              "manufacturer model designation": "Custom"
+            },
+            {
+              "id": "MAGNET.Thermocouple_3",
+              "name": "Thermocouple 3",
+              "section": "Thermowell",
+              "position": "76.20 cm",
+              "equipment type": "Temperature",
+              "manufacturer name": "Idaho Labs",
+              "manufacturer model designation": "Custom"
+            },
+            {
+              "id": "MAGNET.Thermocouple_4",
+              "name": "Thermocouple 4",
+              "section": "Thermowell",
+              "position": "93.98 cm",
+              "equipment type": "Temperature",
+              "manufacturer name": "Idaho Labs",
+              "manufacturer model designation": "Custom"
+            },
+            {
+              "id": "MAGNET.Thermocouple_5",
+              "name": "Thermocouple 5",
+              "section": "Thermowell",
+              "position": "111.76 cm",
+              "equipment type": "Temperature",
+              "manufacturer name": "Idaho Labs",
+              "manufacturer model designation": "Custom"
+            },
+            {
+              "id": "MAGNET.Thermocouple_6",
+              "name": "Thermocouple 6",
+              "section": "Thermowell",
+              "position": "129.54 cm",
+              "equipment type": "Temperature",
+              "manufacturer name": "Idaho Labs",
+              "manufacturer model designation": "Custom"
+            },
+            {
+              "id": "MAGNET.Thermocouple_7",
+              "name": "Thermocouple 7",
+              "section": "Thermowell",
+              "position": "147.32 cm",
+              "equipment type": "Temperature",
+              "manufacturer name": "Idaho Labs",
+              "manufacturer model designation": "Custom"
+            },
+            {
+              "id": "MAGNET.Thermocouple_8",
+              "name": "Thermocouple 8",
+              "section": "Thermowell",
+              "position": "165.10 cm",
+              "equipment type": "Temperature",
+              "manufacturer name": "Idaho Labs",
+              "manufacturer model designation": "Custom"
+            },
+            {
+              "id": "MAGNET.Thermocouple_9",
+              "name": "Thermocouple 9",
+              "section": "Thermowell",
+              "position": "182.88 cm",
+              "equipment type": "Temperature",
+              "manufacturer name": "Idaho Labs",
+              "manufacturer model designation": "Custom"
+            },
+            {
+              "id": "MAGNET.Thermocouple_10",
+              "name": "Thermocouple 10",
+              "section": "Thermowell",
+              "position": "200.00 cm",
+              "equipment type": "Temperature",
+              "manufacturer name": "Idaho Labs",
+              "manufacturer model designation": "Custom"
+            }
+          ],
+          "CartridgeHeater": [
+            {
+              "id": "MAGNET.CartridgeHeater.Heater Power 1",
+              "name": "Heater Power 1",
+              "section": "",
+              "position": "",
+              "description": "",
+              "equipment type": "Power",
+              "manufacturer name": "Watlow Firerod",
+              "manufacturer model designation": ""
+            },
+            {
+              "id": "MAGNET.CartridgeHeater.Heater Power 2",
+              "name": "Heater Power 2",
+              "section": "",
+              "position": "",
+              "description": "",
+              "equipment type": "Power",
+              "manufacturer name": "Watlow Firerod",
+              "manufacturer model designation": ""
+            },
+            {
+              "id": "MAGNET.CartridgeHeater.Heater Power 3",
+              "name": "Heater Power 3",
+              "section": "",
+              "position": "",
+              "description": "",
+              "equipment type": "Power",
+              "manufacturer name": "Watlow Firerod",
+              "manufacturer model designation": ""
+            },
+            {
+              "id": "MAGNET.CartridgeHeater.Heater Power 4",
+              "name": "Heater Power 4",
+              "section": "",
+              "position": "",
+              "description": "",
+              "equipment type": "Power",
+              "manufacturer name": "Watlow Firerod",
+              "manufacturer model designation": ""
+            },
+            {
+              "id": "MAGNET.CartridgeHeater.Heater Power 5",
+              "name": "Heater Power 5",
+              "section": "",
+              "position": "",
+              "description": "",
+              "equipment type": "Power",
+              "manufacturer name": "Watlow Firerod",
+              "manufacturer model designation": ""
+            },
+            {
+              "id": "MAGNET.CartridgeHeater.Heater Power 6",
+              "name": "Heater Power 6",
+              "section": "",
+              "position": "",
+              "description": "",
+              "equipment type": "Power",
+              "manufacturer name": "Watlow Firerod",
+              "manufacturer model designation": ""
+            }
+          ]
+        }
+      },
+      "resulting_metatype_name": null,
+      "resulting_metatype_relationship_name": "locatedAt",
+      "transformations": [
+        {
+          "conditions": [],
+          "keys": [],
+          "origin_parameters": [
+            {
+              "id": "b30de904-435a-4004-8b29-30445eaee5ec",
+              "type": "metatype_id",
+              "operator": "=="
+            }
+          ],
+          "destination_parameters": [
+            {
+              "id": "4e143390-bceb-4a18-a670-802d004d8c03",
+              "type": "metatype_id",
+              "operator": "=="
+            }
+          ],
+          "config": {
+            "on_conversion_error": "fail on required",
+            "on_key_extraction_error": "fail on required",
+            "failed_upgraded_keys": []
+          },
+          "tags": [],
+          "origin_id_key": null,
+          "destination_id_key": null,
+          "unique_identifier_key": null,
+          "root_array": "metatypes.Structure",
+          "archived": false,
+          "type": "edge",
+          "name": "",
+          "created_at_key": null,
+          "created_at_format_string": "yyyy-MM-dd HH:mm:ss.SSS",
+          "selected_relationship_pair_name": "HeatPipe - locatedAt - Structure",
+          "merge": false,
+          "metatype_name": null,
+          "metatype_relationship_pair_name": "Equipment - locatedAt - Structure",
+          "metatype_ontology_version": null,
+          "metatype_relationship_pair_ontology_version": "14"
+        },
+        {
+          "conditions": [],
+          "keys": [
+            {
+              "is_primary_timestamp": false,
+              "id": "133a3c17-f5ab-499b-8dab-ad0c964b0a67",
+              "key": "metatypes.Structure.[].id",
+              "metatype_key": {
+                "name": "id",
+                "description": "",
+                "property_name": "id",
+                "data_type": "string",
+                "required": false,
+                "id": "10608",
+                "metatype_id": "6766",
+                "metatype_name": "Entity",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:33.744Z",
+                "modified_at": "2023-11-30T15:18:33.744Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "6e94b734-5d75-4a5f-a70e-73024ee75cf6",
+              "key": "metatypes.Structure.[].name",
+              "metatype_key": {
+                "name": "name",
+                "description": "",
+                "property_name": "name",
+                "data_type": "string",
+                "required": false,
+                "id": "10607",
+                "metatype_id": "6766",
+                "metatype_name": "Entity",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:33.744Z",
+                "modified_at": "2023-11-30T15:18:33.744Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "37c5f171-8ee5-44dc-afde-07c2ea8ab930",
+              "key": "metatypes.Structure.[].description",
+              "metatype_key": {
+                "name": "description",
+                "description": "",
+                "property_name": "description",
+                "data_type": "string",
+                "required": false,
+                "id": "10605",
+                "metatype_id": "6766",
+                "metatype_name": "Entity",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:33.744Z",
+                "modified_at": "2023-11-30T15:18:33.744Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            }
+          ],
+          "origin_parameters": [],
+          "destination_parameters": [],
+          "config": {
+            "on_conversion_error": "fail on required",
+            "on_key_extraction_error": "fail on required",
+            "failed_upgraded_keys": []
+          },
+          "tags": [],
+          "origin_id_key": "",
+          "destination_id_key": "",
+          "unique_identifier_key": "metatypes.Structure.[].id",
+          "root_array": "metatypes.Structure",
+          "archived": false,
+          "type": "node",
+          "name": "",
+          "created_at_key": null,
+          "created_at_format_string": "yyyy-MM-dd HH:mm:ss.SSS",
+          "selected_relationship_pair_name": "",
+          "merge": null,
+          "metatype_name": "Structure",
+          "metatype_relationship_pair_name": null,
+          "metatype_ontology_version": "14",
+          "metatype_relationship_pair_ontology_version": null
+        },
+        {
+          "conditions": [],
+          "keys": [
+            {
+              "is_primary_timestamp": false,
+              "id": "a5950780-640d-4313-9cfc-24303e1c5a29",
+              "key": "metatypes.Thermocouple.[].id",
+              "metatype_key": {
+                "name": "id",
+                "description": "",
+                "property_name": "id",
+                "data_type": "string",
+                "required": false,
+                "id": "10608",
+                "metatype_id": "6766",
+                "metatype_name": "Entity",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:33.744Z",
+                "modified_at": "2023-11-30T15:18:33.744Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "66be8b16-f5ba-40bd-9d43-8ed230391a0c",
+              "key": "metatypes.Thermocouple.[].name",
+              "metatype_key": {
+                "name": "name",
+                "description": "",
+                "property_name": "name",
+                "data_type": "string",
+                "required": false,
+                "id": "10607",
+                "metatype_id": "6766",
+                "metatype_name": "Entity",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:33.744Z",
+                "modified_at": "2023-11-30T15:18:33.744Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "9bc44206-386e-4c6c-91ec-76219dd9661d",
+              "key": "metatypes.Thermocouple.[].section",
+              "metatype_key": {
+                "name": "section",
+                "description": "",
+                "property_name": "section",
+                "data_type": "string",
+                "required": false,
+                "id": "11154",
+                "metatype_id": "7246",
+                "metatype_name": "Thermocouple",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:49.629Z",
+                "modified_at": "2023-11-30T15:18:49.629Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "8ed3ca13-7313-4e18-86b5-ea2746786760",
+              "key": "metatypes.Thermocouple.[].position",
+              "metatype_key": {
+                "name": "position",
+                "description": "",
+                "property_name": "position",
+                "data_type": "string",
+                "required": false,
+                "id": "11156",
+                "metatype_id": "7246",
+                "metatype_name": "Thermocouple",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:49.629Z",
+                "modified_at": "2023-11-30T15:18:49.629Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "708065f5-4da7-4c25-b787-d5fbad0c4d58",
+              "key": "metatypes.Thermocouple.[].equipment type",
+              "metatype_key": {
+                "name": "equipment type",
+                "description": "Identifies the basic category of equipment (pump, motor, gate valve, electrical breaker, etc.)",
+                "property_name": "equipment_type",
+                "data_type": "string",
+                "required": false,
+                "id": "10745",
+                "metatype_id": "6787",
+                "metatype_name": "AcousticSensor",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:36.388Z",
+                "modified_at": "2023-11-30T15:18:36.388Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "83957ce1-7289-46e4-9c9a-fb2ba7e6697e",
+              "key": "metatypes.Thermocouple.[].manufacturer name",
+              "metatype_key": {
+                "name": "manufacturer name",
+                "description": "",
+                "property_name": "manufacturer_name",
+                "data_type": "string",
+                "required": false,
+                "id": "10709",
+                "metatype_id": "6787",
+                "metatype_name": "AcousticSensor",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:36.388Z",
+                "modified_at": "2023-11-30T15:18:36.388Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "49973f41-63f6-4441-b22d-664d6b4f47ae",
+              "key": "metatypes.Thermocouple.[].manufacturer model designation",
+              "metatype_key": {
+                "name": "manufacturer model designation",
+                "description": "A manufacturer model designation is the words and symbols used by the manufacturer to identify the model",
+                "property_name": "manufacturer_model_designation",
+                "data_type": "string",
+                "required": false,
+                "id": "10710",
+                "metatype_id": "6787",
+                "metatype_name": "AcousticSensor",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:36.388Z",
+                "modified_at": "2023-11-30T15:18:36.388Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            }
+          ],
+          "origin_parameters": [],
+          "destination_parameters": [],
+          "config": {
+            "on_conversion_error": "fail on required",
+            "on_key_extraction_error": "fail on required",
+            "failed_upgraded_keys": []
+          },
+          "tags": [],
+          "origin_id_key": "",
+          "destination_id_key": "",
+          "unique_identifier_key": "metatypes.Thermocouple.[].id",
+          "root_array": "metatypes.Thermocouple",
+          "archived": false,
+          "type": "node",
+          "name": "",
+          "created_at_key": null,
+          "created_at_format_string": "yyyy-MM-dd HH:mm:ss.SSS",
+          "selected_relationship_pair_name": "",
+          "merge": null,
+          "metatype_name": "Thermocouple",
+          "metatype_relationship_pair_name": null,
+          "metatype_ontology_version": "14",
+          "metatype_relationship_pair_ontology_version": null
+        },
+        {
+          "conditions": [],
+          "keys": [
+            {
+              "is_primary_timestamp": false,
+              "id": "cb4874a3-b558-4ffa-ba51-326ff5531028",
+              "key": "metatypes.HeatPipe.[].id",
+              "metatype_key": {
+                "name": "id",
+                "description": "",
+                "property_name": "id",
+                "data_type": "string",
+                "required": false,
+                "id": "10608",
+                "metatype_id": "6766",
+                "metatype_name": "Entity",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:33.744Z",
+                "modified_at": "2023-11-30T15:18:33.744Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "2242a96b-473e-41db-90ff-798d90db1699",
+              "key": "metatypes.HeatPipe.[].name",
+              "metatype_key": {
+                "name": "name",
+                "description": "",
+                "property_name": "name",
+                "data_type": "string",
+                "required": false,
+                "id": "10607",
+                "metatype_id": "6766",
+                "metatype_name": "Entity",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:33.744Z",
+                "modified_at": "2023-11-30T15:18:33.744Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "2c11f2ea-3a85-4b3c-a38b-da9ad787cf6a",
+              "key": "metatypes.HeatPipe.[].acronym",
+              "metatype_key": {
+                "name": "acronym",
+                "description": "",
+                "property_name": "acronym",
+                "data_type": "string",
+                "required": false,
+                "id": "10701",
+                "metatype_id": "6787",
+                "metatype_name": "AcousticSensor",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:36.388Z",
+                "modified_at": "2023-11-30T15:18:36.388Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "86a506b2-f20b-49e2-af1b-377cf5b31b72",
+              "key": "metatypes.HeatPipe.[].manufacturer name",
+              "metatype_key": {
+                "name": "manufacturer name",
+                "description": "",
+                "property_name": "manufacturer_name",
+                "data_type": "string",
+                "required": false,
+                "id": "10709",
+                "metatype_id": "6787",
+                "metatype_name": "AcousticSensor",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:36.388Z",
+                "modified_at": "2023-11-30T15:18:36.388Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            }
+          ],
+          "origin_parameters": [],
+          "destination_parameters": [],
+          "config": {
+            "on_conversion_error": "fail on required",
+            "on_key_extraction_error": "fail on required",
+            "failed_upgraded_keys": []
+          },
+          "tags": [],
+          "origin_id_key": "",
+          "destination_id_key": "",
+          "unique_identifier_key": "metatypes.HeatPipe.[].id",
+          "root_array": "metatypes.HeatPipe",
+          "archived": false,
+          "type": "node",
+          "name": "",
+          "created_at_key": null,
+          "created_at_format_string": "yyyy-MM-dd HH:mm:ss.SSS",
+          "selected_relationship_pair_name": null,
+          "merge": false,
+          "metatype_name": "HeatPipe",
+          "metatype_relationship_pair_name": null,
+          "metatype_ontology_version": "14",
+          "metatype_relationship_pair_ontology_version": null
+        },
+        {
+          "conditions": [],
+          "keys": [],
+          "origin_parameters": [
+            {
+              "id": "882ff156-ad65-4998-9d0d-6c9f6dd8bfec",
+              "type": "metatype_id",
+              "operator": "=="
+            },
+            {
+              "id": "cf1b5677-a50f-4227-b01d-610cbc9851ea",
+              "key": null,
+              "type": "property",
+              "value": "MAGNET",
+              "operator": "==",
+              "property": "id"
+            }
+          ],
+          "destination_parameters": [
+            {
+              "id": "7bdebca2-fedc-477f-bc2d-dff5c6893cf0",
+              "type": "metatype_id",
+              "operator": "=="
+            }
+          ],
+          "config": {
+            "on_conversion_error": "fail on required",
+            "on_key_extraction_error": "fail on required",
+            "failed_upgraded_keys": []
+          },
+          "tags": [],
+          "origin_id_key": null,
+          "destination_id_key": null,
+          "unique_identifier_key": null,
+          "root_array": "metatypes.Thermocouple",
+          "archived": false,
+          "type": "edge",
+          "name": "",
+          "created_at_key": null,
+          "created_at_format_string": "yyyy-MM-dd HH:mm:ss.SSS",
+          "selected_relationship_pair_name": "HeatPipe - includes - Thermocouple",
+          "merge": false,
+          "metatype_name": null,
+          "metatype_relationship_pair_name": "HeatPipe - includes - Thermocouple",
+          "metatype_ontology_version": null,
+          "metatype_relationship_pair_ontology_version": "14"
+        },
+        {
+          "conditions": [],
+          "keys": [],
+          "origin_parameters": [
+            {
+              "id": "44a82dd4-3bd5-4e60-8fdb-07410fdc05b8",
+              "type": "metatype_id",
+              "operator": "=="
+            },
+            {
+              "id": "cf1b5677-a50f-4227-b01d-610cbc9851ea",
+              "key": null,
+              "type": "property",
+              "value": "MAGNET",
+              "operator": "==",
+              "property": "id"
+            }
+          ],
+          "destination_parameters": [
+            {
+              "id": "02a6130f-874b-4d33-8e99-d6432f996daf",
+              "type": "metatype_id",
+              "operator": "=="
+            }
+          ],
+          "config": {
+            "on_conversion_error": "fail on required",
+            "on_key_extraction_error": "fail on required",
+            "failed_upgraded_keys": []
+          },
+          "tags": [],
+          "origin_id_key": null,
+          "destination_id_key": null,
+          "unique_identifier_key": null,
+          "root_array": "metatypes.CartridgeHeater",
+          "archived": false,
+          "type": "edge",
+          "name": "",
+          "created_at_key": null,
+          "created_at_format_string": "yyyy-MM-dd HH:mm:ss.SSS",
+          "selected_relationship_pair_name": "HeatPipe - includes - CartridgeHeater",
+          "merge": false,
+          "metatype_name": null,
+          "metatype_relationship_pair_name": "HeatPipe - includes - CartridgeHeater",
+          "metatype_ontology_version": null,
+          "metatype_relationship_pair_ontology_version": "14"
+        },
+        {
+          "conditions": [],
+          "keys": [
+            {
+              "is_primary_timestamp": false,
+              "id": "23314b00-53c1-4013-8af0-8249f747afb1",
+              "key": "metatypes.CartridgeHeater.[].id",
+              "metatype_key": {
+                "name": "id",
+                "description": "",
+                "property_name": "id",
+                "data_type": "string",
+                "required": false,
+                "id": "10608",
+                "metatype_id": "6766",
+                "metatype_name": "Entity",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:33.744Z",
+                "modified_at": "2023-11-30T15:18:33.744Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "dab14c9a-d66b-4200-96d2-6d6b163e8131",
+              "key": "metatypes.CartridgeHeater.[].name",
+              "metatype_key": {
+                "name": "name",
+                "description": "",
+                "property_name": "name",
+                "data_type": "string",
+                "required": false,
+                "id": "10607",
+                "metatype_id": "6766",
+                "metatype_name": "Entity",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:33.744Z",
+                "modified_at": "2023-11-30T15:18:33.744Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "0f301ee8-e5a4-4c2f-92a0-5464f8dae931",
+              "key": "metatypes.CartridgeHeater.[].section",
+              "metatype_key": {
+                "name": "section",
+                "description": "",
+                "property_name": "section",
+                "data_type": "string",
+                "required": false,
+                "id": "10617",
+                "metatype_id": "6788",
+                "metatype_name": "CartridgeHeater",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:34.190Z",
+                "modified_at": "2023-11-30T15:18:34.190Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "5cab8238-10a3-4621-b72b-f1756c132999",
+              "key": "metatypes.CartridgeHeater.[].position",
+              "metatype_key": {
+                "name": "position",
+                "description": "",
+                "property_name": "position",
+                "data_type": "string",
+                "required": false,
+                "id": "10619",
+                "metatype_id": "6788",
+                "metatype_name": "CartridgeHeater",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:34.190Z",
+                "modified_at": "2023-11-30T15:18:34.190Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "a3b79d3a-61df-4afe-8f4e-38e8362d507d",
+              "key": "metatypes.CartridgeHeater.[].description",
+              "metatype_key": {
+                "name": "description",
+                "description": "",
+                "property_name": "description",
+                "data_type": "string",
+                "required": false,
+                "id": "10605",
+                "metatype_id": "6766",
+                "metatype_name": "Entity",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:33.744Z",
+                "modified_at": "2023-11-30T15:18:33.744Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            },
+            {
+              "is_primary_timestamp": false,
+              "id": "4d1e6cb8-b21e-46f7-8a65-c8eee787ff28",
+              "key": "metatypes.CartridgeHeater.[].manufacturer name",
+              "metatype_key": {
+                "name": "manufacturer name",
+                "description": "",
+                "property_name": "manufacturer_name",
+                "data_type": "string",
+                "required": false,
+                "id": "10709",
+                "metatype_id": "6787",
+                "metatype_name": "AcousticSensor",
+                "options": null,
+                "default_value": null,
+                "validation": {
+                  "max": 0,
+                  "min": 0,
+                  "regex": ""
+                },
+                "created_at": "2023-11-30T15:18:36.388Z",
+                "modified_at": "2023-11-30T15:18:36.388Z",
+                "created_by": "1",
+                "modified_by": "1",
+                "ontology_version": "14",
+                "container_id": "13",
+                "deleted_at": null
+              },
+              "is_metadata_key": false
+            }
+          ],
+          "origin_parameters": [],
+          "destination_parameters": [],
+          "config": {
+            "on_conversion_error": "fail on required",
+            "on_key_extraction_error": "fail on required",
+            "failed_upgraded_keys": []
+          },
+          "tags": [],
+          "origin_id_key": "",
+          "destination_id_key": "",
+          "unique_identifier_key": "metatypes.CartridgeHeater.[].id",
+          "root_array": "metatypes.CartridgeHeater",
+          "archived": false,
+          "type": "node",
+          "name": "",
+          "created_at_key": null,
+          "created_at_format_string": "yyyy-MM-dd HH:mm:ss.SSS",
+          "selected_relationship_pair_name": "",
+          "merge": null,
+          "metatype_name": "CartridgeHeater",
+          "metatype_relationship_pair_name": null,
+          "metatype_ontology_version": "14",
+          "metatype_relationship_pair_ontology_version": null
+        }
+      ]
+    }
+  ]
+}
